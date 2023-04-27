@@ -1,0 +1,36 @@
+CRITICAL - 2022-07-26 12:01:17 --> syntax error, unexpected '<'
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Common.php(1089): CodeIgniter\View\View->render('payment', Array, true)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Home.php(24): view('payment', Array)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Home->payment()
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-26 12:47:14 --> syntax error, unexpected '<'
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Common.php(1089): CodeIgniter\View\View->render('payment', Array, true)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Home.php(24): view('payment', Array)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Home->payment()
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-26 12:49:36 --> syntax error, unexpected '<'
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Common.php(1089): CodeIgniter\View\View->render('payment', Array, true)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Home.php(24): view('payment', Array)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Home->payment()
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-26 12:50:35 --> syntax error, unexpected '<'
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Common.php(1089): CodeIgniter\View\View->render('payment', Array, true)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Home.php(24): view('payment', Array)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Home->payment()
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

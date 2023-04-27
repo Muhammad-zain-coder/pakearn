@@ -31,9 +31,9 @@
                     <h3>Accepted Payment Method</h3>
                 </div>
                 <div bis_skin_checked="1">
-                    <img src="https://pak-earn.com/assets/front/images/easpaisa.svg" class="payment-img" alt="">
-                    <img src="https://pak-earn.com/assets/front/images/jazzcash.svg" class="payment-img" alt="">
-                    <img src="https://pak-earn.com/assets/front/images/alliedbank.svg" class="payment-img" alt="">
+                    <img src="<?= base_url()?>/assets/front/images/easpaisa.svg" class="payment-img" alt="">
+                    <img src="<?= base_url()?>/assets/front/images/jazzcash.svg" class="payment-img" alt="">
+                    <img src="<?= base_url()?>/assets/front/images/alliedbank.svg" class="payment-img" alt="">
                 </div>
             </div>
             <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12" bis_skin_checked="1">
@@ -41,31 +41,31 @@
                     <div class="owl-carousel owl-theme" bis_skin_checked="1">
                         <div class="item" bis_skin_checked="1">
                             <div class="partner_img_wrapper float_left" bis_skin_checked="1">
-                                <img src="https://pak-earn.com/assets/front/images/xpartner1.png.pagespeed.ic.c6_VkqjLHT.png"
+                                <img src="<?= base_url()?>/assets/front/images/xpartner1.png.pagespeed.ic.c6_VkqjLHT.png"
                                      class="img-responsive" alt="img">
                             </div>
                         </div>
                         <div class="item" bis_skin_checked="1">
                             <div class="partner_img_wrapper float_left" bis_skin_checked="1">
-                                <img src="https://pak-earn.com/assets/front/images/xpartner2.png.pagespeed.ic.m0QudFcv6R.png"
+                                <img src="<?= base_url()?>/assets/front/images/xpartner2.png.pagespeed.ic.m0QudFcv6R.png"
                                      class="img-responsive" alt="img">
                             </div>
                         </div>
                         <div class="item" bis_skin_checked="1">
                             <div class="partner_img_wrapper float_left" bis_skin_checked="1">
-                                <img src="https://pak-earn.com/assets/front/images/xpartner3.png.pagespeed.ic.6E7EmICBBk.png"
+                                <img src="<?= base_url()?>/assets/front/images/xpartner3.png.pagespeed.ic.6E7EmICBBk.png"
                                      class="img-responsive" alt="img">
                             </div>
                         </div>
                         <div class="item" bis_skin_checked="1">
                             <div class="partner_img_wrapper float_left" bis_skin_checked="1">
-                                <img src="https://pak-earn.com/assets/front/images/xpartner4.png.pagespeed.ic.XCrUfE6DFg.png"
+                                <img src="<?= base_url()?>/assets/front/images/xpartner4.png.pagespeed.ic.XCrUfE6DFg.png"
                                      class="img-responsive" alt="img">
                             </div>
                         </div>
                         <div class="item" bis_skin_checked="1">
                             <div class="partner_img_wrapper float_left" bis_skin_checked="1">
-                                <img src="https://pak-earn.com/assets/front/images/xpartner2.png.pagespeed.ic.m0QudFcv6R.png"
+                                <img src="<?= base_url()?>/assets/front/images/xpartner2.png.pagespeed.ic.m0QudFcv6R.png"
                                      class="img-responsive" alt="img">
                             </div>
                         </div>

@@ -25,8 +25,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row  margin-top">
                 <div class="col-md-6">
                     <div class="card">
                         <div class="card-header h1"><img class="card-img-top"
@@ -41,9 +39,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row margin-top margin-bottom">
-                <div class="col-md-6">
+
+                <div class="col-md-6 margin-top">
                     <div class="card">
                         <div class="card-header h1"><img class="card-img-top"
                                                          src="<?= base_url('assets/front/images/alliedbank.svg'); ?>"

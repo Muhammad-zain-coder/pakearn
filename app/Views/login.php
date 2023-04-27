@@ -50,7 +50,7 @@
                                     </div>
                                 <?php endif; ?>
                             </div>
-                            <form action="<?= env('app.baseURL'); ?>/auth/auth" method="post">
+                            <form action="<?= env('app.baseURL'); ?>/auth" method="post">
                                 <div class="form-group icon_form comments_form">
 
                                     <input type="email" class="form-control require" name="email"
@@ -69,7 +69,7 @@
                                 </div>
                             </form>
                             <div class="dont_have_account float_left">
-                                <p>Don’t have an acount ? <a href="<?= env('app.baseURL'); ?>/auth/register">Sign up</a>
+                                <p>Don’t have an acount ? <a href="<?= env('app.baseURL'); ?>register">Sign up</a>
                                 </p>
                             </div>
                         </div>

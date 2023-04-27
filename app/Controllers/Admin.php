@@ -142,7 +142,7 @@ class Admin extends BaseController
         $session->destroy();
         return redirect()->to('admin/login');
     }
-public function widthrawal(){
+    public function widthrawal(){
     if (!session()->get('logged_in')) {
         return redirect()->to('admin/login');
     }

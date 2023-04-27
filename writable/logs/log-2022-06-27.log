@@ -1,0 +1,146 @@
+CRITICAL - 2022-06-27 11:48:41 --> Invalid file: index.php
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Home.php(12): view('index', Array)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-27 11:50:09 --> Invalid file: templates/default.php
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/defau...')
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(226): CodeIgniter\View\View->render('templates/defau...', Array, true)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Home.php(12): view('index', Array)
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-27 11:54:23 --> Class 'App\Models\IpModel' not found
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-27 11:54:28 --> Class 'App\Models\IpModel' not found
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-27 11:55:49 --> Class 'App\Models\IpModel' not found
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-27 11:57:53 --> Class 'App\Models\IpModel' not found
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-27 11:58:31 --> Class 'App\Controllers\IpModel' not found
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-27 12:19:44 --> Class 'App\Models\UserModel' not found
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(809): App\Controllers\Auth\Auth->__construct()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-27 12:20:05 --> Class 'App\Models\UserModel' not found
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(809): App\Controllers\Auth\Auth->__construct()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-27 12:22:30 --> Call to undefined function display_error()
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(210): include()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(236): view('register', Array)
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->register()
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-27 12:23:37 --> Call to undefined function display_error()
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(210): include()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(236): view('register', Array)
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->register()
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-27 12:23:51 --> Call to undefined function display_error()
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(210): include()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(236): view('register', Array)
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->register()
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-27 12:24:07 --> Call to undefined function display_error()
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(210): include()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(236): view('register', Array)
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->register()
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-27 12:24:48 --> Call to undefined function display_error()
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(210): include()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(236): view('register', Array)
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->register()
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-27 12:24:58 --> Call to undefined function display_error()
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(210): include()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(236): view('register', Array)
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->register()
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-27 12:26:08 --> Use of undefined constant url - assumed 'url' (this will throw an Error in a future version of PHP)
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/sites/4a/...', 19, Array)
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(809): App\Controllers\Auth\Auth->__construct()
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-27 12:31:11 --> auth filter must have a matching alias defined.
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-27 12:32:03 --> auth filter must have a matching alias defined.
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-27 12:43:28 --> auth filter must have a matching alias defined.
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
