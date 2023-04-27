@@ -20,9 +20,10 @@
         <nav class="c-menu js-menu" id="mynavi">
             <ul class="u-list crm_drop_second_ul">
                 <li class="crm_navi_icon">
-                    <div class="c-menu__item__inner"><a href="<?= env('app.baseURL')?>dashboard"><i class="flaticon-four-grid-layout-design-interface-symbol"></i></a>
+                    <div class="c-menu__item__inner"><a href="<?= env('app.baseURL') ?>/auth/dashboard"><i
+                                    class="flaticon-four-grid-layout-design-interface-symbol"></i></a>
                         <ul class="crm_hover_menu">
-                            <li><a href="<?= env('app.baseURL')?>dashboard"><i class="fa fa-circle"></i>Dashboard</a>
+                            <li><a href="<?= env('app.baseURL') ?>/auth/dashboard"><i class="fa fa-circle"></i>Dashboard</a>
                             </li>
                             <li><a href="view_profile.html"><i class="fa fa-circle"></i> my profile</a>
                             </li>
@@ -36,7 +37,7 @@
                     </div>
                 </li>
                 <li class="c-menu__item is-active has-sub crm_navi_icon_cont">
-                    <a href="<?= env('app.baseURL')?>dashboard">
+                    <a href="<?= env('app.baseURL') ?>/auth/dashboard">
                         <div class="c-menu-item__title"><span>Dashboard</span>
                         </div>
                     </a>
@@ -44,33 +45,36 @@
             </ul>
             <ul class="u-list crm_drop_second_ul">
                 <li class="crm_navi_icon">
-                    <div class="c-menu__item__inner"><a href="transfer_fund.html"><i class="flaticon-progress-report"></i></a>
+                    <div class="c-menu__item__inner"><a href="transfer_fund.html"><i
+                                    class="flaticon-progress-report"></i></a>
                     </div>
                 </li>
                 <li class="c-menu__item crm_navi_icon_cont">
-                    <a href="<?= env('app.baseURL')?>widthrawal">
+                    <a href="<?= env('app.baseURL') ?>/auth/widthrawal">
                         <div class="c-menu-item__title">Withdrawal</div>
                     </a>
                 </li>
             </ul>
             <ul class="u-list crm_drop_second_ul">
                 <li class="crm_navi_icon">
-                    <div class="c-menu__item__inner"><a href="transfer_fund.html"><i class="flaticon-progress-report"></i></a>
+                    <div class="c-menu__item__inner"><a href="transfer_fund.html"><i
+                                    class="flaticon-progress-report"></i></a>
                     </div>
                 </li>
                 <li class="c-menu__item crm_navi_icon_cont">
-                    <a href="<?= env('app.baseURL')?>pay-credit">
+                    <a href="<?= env('app.baseURL') ?>/auth/pay-credit">
                         <div class="c-menu-item__title">Credit pay</div>
                     </a>
                 </li>
             </ul>
             <ul class="u-list crm_drop_second_ul">
                 <li class="crm_navi_icon">
-                    <div class="c-menu__item__inner"><a href="transfer_fund.html"><i class="flaticon-progress-report"></i></a>
+                    <div class="c-menu__item__inner"><a href="transfer_fund.html"><i
+                                    class="flaticon-progress-report"></i></a>
                     </div>
                 </li>
                 <li class="c-menu__item crm_navi_icon_cont">
-                    <a href="<?= env('app.baseURL')?>paymentGateways">
+                    <a href="<?= env('app.baseURL') ?>/auth/paymentGateways">
                         <div class="c-menu-item__title">Payment Gateways</div>
                     </a>
                 </li>
@@ -104,8 +108,6 @@
                    }else{
                    ?>
                     <h3>Make Payout</h3>
-
-
 
                 </div>
             </div>

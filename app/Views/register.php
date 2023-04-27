@@ -68,7 +68,7 @@
                                     <label class="form-label float-left" for="username">Username</label>
                                     <input type="text" class="form-control require" name="username" id="username"
                                            placeholder="Username" value='<?= set_value('username') ?>'/>
-                                    <span class="text-danger"><?= display_error($validation, 'username') ?></span>
+                                    <span class="text-danger"><?= display_error($validation, 'email') ?></span>
 
                                 </div>
                                 <div class="form-group icon_form comments_form register_contact">

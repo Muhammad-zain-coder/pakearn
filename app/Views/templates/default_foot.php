@@ -53,18 +53,18 @@
         </li>
         <?php if (session()->has("logged_in")): ?>
             <li>
-                <a href="<?= env('app.baseURL'); ?>dashboard"> Dashboard </a></li>
-            <li><a href="<?= env('app.baseURL'); ?>widthrawal"> widthrawal </a></li>
-            <li><a href="<?= env('app.baseURL') ?>pay-credit">Credit Pay</a></li>
-            <li><a href="<?= env('app.baseURL') ?>paymentGateways"> Payment Gateways </a></li>
+                <a href="<?= env('app.baseURL'); ?>/auth/dashboard"> Dashboard </a></li>
+            <li><a href="<?= env('app.baseURL'); ?>/auth/widthrawal"> widthrawal </a></li>
+            <li><a href="<?= env('app.baseURL') ?>auth/pay-credit">Credit Pay</a></li>
+            <li><a href="<?= env('app.baseURL') ?>/auth/paymentGateways"> Payment Gateways </a></li>
             <li>
-                <a href="<?= env('app.baseURL'); ?>logout"> logout </a></li>
+                <a href="<?= env('app.baseURL'); ?>/auth/logout"> logout </a></li>
 
         <?php else: ?>
             <li>
-                <a href="<?= env('app.baseURL'); ?>register"> register </a></li>
+                <a href="<?= env('app.baseURL'); ?>/auth/register"> register </a></li>
             <li>
-                <a href="<?= env('app.baseURL'); ?>login"> login </a>
+                <a href="<?= env('app.baseURL'); ?>/auth/login"> login </a>
             </li>
         <?php endif; ?>
     </ul>
@@ -131,15 +131,15 @@
                 <ul>
                     <?php if (session()->has("logged_in")): ?>
                         <li>
-                            <a href="<?= env('app.baseURL'); ?>dashboard"> Dashboard </a></li>
+                            <a href="<?= env('app.baseURL'); ?>/auth/dashboard"> Dashboard </a></li>
                         <li>
-                            <a href="<?= env('app.baseURL'); ?>logout"> logout </a></li>
+                            <a href="<?= env('app.baseURL'); ?>/auth/logout"> logout </a></li>
 
                     <?php else: ?>
                         <li>
-                            <a href="<?= env('app.baseURL'); ?>register"> register </a></li>
+                            <a href="<?= env('app.baseURL'); ?>/auth/register"> register </a></li>
                         <li>
-                            <a href="<?= env('app.baseURL'); ?>login"> login </a></li>
+                            <a href="<?= env('app.baseURL'); ?>/auth/login"> login </a></li>
 
                     <?php endif; ?>
                 </ul>
