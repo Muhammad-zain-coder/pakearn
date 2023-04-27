@@ -1,0 +1,61 @@
+CRITICAL - 2022-07-23 02:28:12 --> syntax error, unexpected '<'
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(481): view('dashboard', Array)
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->dashboard()
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-23 08:03:54 --> Error connecting to the database: Too many connections
+CRITICAL - 2022-07-23 08:03:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/BaseModel.php(523): CodeIgniter\Model->doFind(true, '2')
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(470): CodeIgniter\BaseModel->find('2')
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->dashboard()
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-23 08:04:00 --> Error connecting to the database: Too many connections
+CRITICAL - 2022-07-23 08:04:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/BaseModel.php(523): CodeIgniter\Model->doFind(true, '2')
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(470): CodeIgniter\BaseModel->find('2')
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->dashboard()
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-23 08:04:03 --> Error connecting to the database: Too many connections
+CRITICAL - 2022-07-23 08:04:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/BaseModel.php(523): CodeIgniter\Model->doFind(true, '2')
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(470): CodeIgniter\BaseModel->find('2')
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->dashboard()
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-23 08:04:07 --> Error connecting to the database: Too many connections
+CRITICAL - 2022-07-23 08:04:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/BaseModel.php(523): CodeIgniter\Model->doFind(true, '2')
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(251): CodeIgniter\BaseModel->find('2')
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->widthrawal()
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

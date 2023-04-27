@@ -1,0 +1,22 @@
+CRITICAL - 2022-05-26 13:14:53 --> Undefined variable $title
+#0 E:\xampp\htdocs\investment\app\Views\auth\register.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 3)
+#1 E:\xampp\htdocs\investment\vendor\codeigniter4\framework\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\investment\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\investment\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 E:\xampp\htdocs\investment\app\Controllers\Auth.php(17): view('auth/register')
+#5 E:\xampp\htdocs\investment\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#6 E:\xampp\htdocs\investment\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 E:\xampp\htdocs\investment\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\investment\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-26 13:15:20 --> Undefined variable $title
+#0 E:\xampp\htdocs\investment\app\Views\auth\register.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 3)
+#1 E:\xampp\htdocs\investment\vendor\codeigniter4\framework\system\View\View.php(210): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\investment\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\xampp\htdocs\investment\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 E:\xampp\htdocs\investment\app\Controllers\Auth.php(17): view('auth/register')
+#5 E:\xampp\htdocs\investment\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Auth->register()
+#6 E:\xampp\htdocs\investment\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 E:\xampp\htdocs\investment\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\investment\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

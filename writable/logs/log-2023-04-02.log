@@ -1,0 +1,76 @@
+CRITICAL - 2023-04-02 05:11:39 --> Undefined array key 0
+#0 C:\wamp64\www\pakearn\app\Controllers\Admin.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\p...', 173)
+#1 C:\wamp64\www\pakearn\system\CodeIgniter.php(832): App\Controllers\Admin->widthrawalEdit('0')
+#2 C:\wamp64\www\pakearn\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\wamp64\www\pakearn\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pakearn\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-02 05:12:41 --> Undefined array key 0
+#0 C:\wamp64\www\pakearn\app\Controllers\Admin.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\p...', 173)
+#1 C:\wamp64\www\pakearn\system\CodeIgniter.php(832): App\Controllers\Admin->widthrawalEdit('0')
+#2 C:\wamp64\www\pakearn\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\wamp64\www\pakearn\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pakearn\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-04-02 06:21:09 --> Undefined array key 0
+#0 C:\wamp64\www\pakearn\app\Views\admin\widthrawal.php(341): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\p...', 341)
+#1 C:\wamp64\www\pakearn\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pakearn\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pakearn\system\Common.php(1089): CodeIgniter\View\View->render('admin/widthrawa...', Array, true)
+#4 C:\wamp64\www\pakearn\app\Controllers\Admin.php(163): view('admin/widthrawa...', Array)
+#5 C:\wamp64\www\pakearn\system\CodeIgniter.php(832): App\Controllers\Admin->widthrawal()
+#6 C:\wamp64\www\pakearn\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\wamp64\www\pakearn\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pakearn\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-02 06:21:15 --> Undefined array key 0
+#0 C:\wamp64\www\pakearn\app\Views\admin\widthrawal.php(341): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\p...', 341)
+#1 C:\wamp64\www\pakearn\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pakearn\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pakearn\system\Common.php(1089): CodeIgniter\View\View->render('admin/widthrawa...', Array, true)
+#4 C:\wamp64\www\pakearn\app\Controllers\Admin.php(163): view('admin/widthrawa...', Array)
+#5 C:\wamp64\www\pakearn\system\CodeIgniter.php(832): App\Controllers\Admin->widthrawal()
+#6 C:\wamp64\www\pakearn\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\wamp64\www\pakearn\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pakearn\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-02 06:21:19 --> Undefined array key 0
+#0 C:\wamp64\www\pakearn\app\Views\admin\widthrawal.php(341): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\p...', 341)
+#1 C:\wamp64\www\pakearn\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pakearn\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pakearn\system\Common.php(1089): CodeIgniter\View\View->render('admin/widthrawa...', Array, true)
+#4 C:\wamp64\www\pakearn\app\Controllers\Admin.php(163): view('admin/widthrawa...', Array)
+#5 C:\wamp64\www\pakearn\system\CodeIgniter.php(832): App\Controllers\Admin->widthrawal()
+#6 C:\wamp64\www\pakearn\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\wamp64\www\pakearn\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pakearn\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-02 06:23:34 --> Undefined array key 0
+#0 C:\wamp64\www\pakearn\app\Views\admin\widthrawal.php(341): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\p...', 341)
+#1 C:\wamp64\www\pakearn\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pakearn\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pakearn\system\Common.php(1089): CodeIgniter\View\View->render('admin/widthrawa...', Array, true)
+#4 C:\wamp64\www\pakearn\app\Controllers\Admin.php(163): view('admin/widthrawa...', Array)
+#5 C:\wamp64\www\pakearn\system\CodeIgniter.php(832): App\Controllers\Admin->widthrawal()
+#6 C:\wamp64\www\pakearn\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\wamp64\www\pakearn\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pakearn\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-02 06:24:02 --> Undefined array key 0
+#0 C:\wamp64\www\pakearn\app\Views\admin\widthrawal.php(342): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\p...', 342)
+#1 C:\wamp64\www\pakearn\system\View\View.php(210): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\pakearn\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\pakearn\system\Common.php(1089): CodeIgniter\View\View->render('admin/widthrawa...', Array, true)
+#4 C:\wamp64\www\pakearn\app\Controllers\Admin.php(163): view('admin/widthrawa...', Array)
+#5 C:\wamp64\www\pakearn\system\CodeIgniter.php(832): App\Controllers\Admin->widthrawal()
+#6 C:\wamp64\www\pakearn\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\wamp64\www\pakearn\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\pakearn\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-04-02 06:32:20 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\pakearn\app\Controllers\Auth\Auth.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\wamp64\\www\\p...', 231)
+#1 C:\wamp64\www\pakearn\system\CodeIgniter.php(832): App\Controllers\Auth\Auth->dashboard()
+#2 C:\wamp64\www\pakearn\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#3 C:\wamp64\www\pakearn\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\pakearn\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

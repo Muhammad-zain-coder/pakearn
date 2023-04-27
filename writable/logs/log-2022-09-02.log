@@ -1,0 +1,217 @@
+ERROR - 2022-09-02 00:56:34 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-02 00:56:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('Khan5555', 'username', Array, NULL)
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'Khan5555', Array, Array)
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(218): CodeIgniter\Controller->validate(Array)
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->register()
+#8 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#9 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-02 00:57:54 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-02 00:57:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(85): CodeIgniter\BaseModel->first()
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->auth()
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-02 02:33:45 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-02 02:33:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('zainali', 'username', Array, NULL)
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'zainali', Array, Array)
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(218): CodeIgniter\Controller->validate(Array)
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->register()
+#8 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#9 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-02 02:34:23 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-02 02:34:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('zainali', 'username', Array, NULL)
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'zainali', Array, Array)
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(218): CodeIgniter\Controller->validate(Array)
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->register()
+#8 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#9 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-02 02:37:26 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-02 02:37:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('Ahmadusmanu511', 'username', Array, NULL)
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'Ahmadusmanu511', Array, Array)
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(218): CodeIgniter\Controller->validate(Array)
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->register()
+#8 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#9 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-02 02:38:16 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-02 02:38:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('Ahmadusmanu511', 'username', Array, NULL)
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'Ahmadusmanu511', Array, Array)
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(218): CodeIgniter\Controller->validate(Array)
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->register()
+#8 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#9 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-02 02:38:48 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-02 02:38:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('Ahmadusmanu511', 'username', Array, NULL)
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'Ahmadusmanu511', Array, Array)
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(218): CodeIgniter\Controller->validate(Array)
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->register()
+#8 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#9 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-02 03:51:53 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-02 03:51:53 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('Khani', 'username', Array, NULL)
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'Khani', Array, Array)
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(218): CodeIgniter\Controller->validate(Array)
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->register()
+#8 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#9 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-02 05:04:07 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-02 05:04:07 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(85): CodeIgniter\BaseModel->first()
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->auth()
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-02 05:04:15 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-02 05:04:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(85): CodeIgniter\BaseModel->first()
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->auth()
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-09-02 06:45:11 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-02 06:45:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('03459045076', 'username', Array, NULL)
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', '03459045076', Array, Array)
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(218): CodeIgniter\Controller->validate(Array)
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->register()
+#8 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#9 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-02 06:45:31 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-02 06:45:31 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('03459045076', 'username', Array, NULL)
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', '03459045076', Array, Array)
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(218): CodeIgniter\Controller->validate(Array)
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->register()
+#8 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#9 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-02 07:07:43 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-02 07:07:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('Sajid', 'username', Array, NULL)
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'Sajid', Array, Array)
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(218): CodeIgniter\Controller->validate(Array)
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->register()
+#8 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#9 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-02 07:07:48 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-02 07:07:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique('Sajid', 'username', Array, NULL)
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'Sajid', Array, Array)
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(218): CodeIgniter\Controller->validate(Array)
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->register()
+#8 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#9 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-09-02 07:08:48 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-09-02 07:08:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/sites/4a/f/f2cc4de9ad/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/sites/4a/f/f2cc4de9ad/public_html/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/sites/4a/f/f2cc4de9ad/public_html/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /home/sites/4a/f/f2cc4de9ad/public_html/app/Controllers/Auth/Auth.php(85): CodeIgniter\BaseModel->first()
+#5 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(832): App\Controllers\Auth\Auth->auth()
+#6 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#7 /home/sites/4a/f/f2cc4de9ad/public_html/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/sites/4a/f/f2cc4de9ad/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
