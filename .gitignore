@@ -52,3 +52,5 @@ system/
 .env
 spark
 app/config/App.php
+vendor/
+writable/

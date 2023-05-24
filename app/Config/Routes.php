@@ -36,7 +36,10 @@ $routes->get('payment-methods', 'Home::payment');
 $routes->get('how-to-use', 'Home::howtouse');
 
 $routes->add('/about', 'Home::about');
-
+$routes->add('/terms', 'Home::terms');
+$routes->add('/privacy', 'Home::privacy');
+$routes->add('/about', 'Home::about');
+$routes->match(['get','post'],'contact','Home::contact');
 //Authentications (Login, Signup and forget password)
 
 $routes->group('auth', function($routes){
