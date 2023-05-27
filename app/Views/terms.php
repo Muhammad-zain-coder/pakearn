@@ -23,66 +23,78 @@
                     <header class="entry-header">
                         <h1 class="entry-title">Terms of Service</h1>
                     </header><!-- .entry-header -->
+<p>Welcome to Pak Earn!
 
-                    <div class="entry-content">
-                        <p>Below are our Terms of Service, which outline a lot of legal goodies, but the bottom line is it’s our aim to always take care of both you, as a customer, or as a seller on our platform. We’ve included many of these terms to legally protect ourselves, but if you have an issue, always feel free to email us at themes@getbootstrap.com and we’ll do our best to resolve it in a fair and timely fashion.</p>
-                        <ol>
-                            <li><strong>Application of Terms</strong>
-                                <ol>
-                                    <li>By visiting and/or taking any action on Bootstrap Themes, you confirm that you are in agreement with and bound by the terms outlined below. These terms apply to the website, emails, or any other communication.</li>
-                                </ol>
-                            </li>
-                            <li><strong>Themes</strong>
-                                <ol>
-                                    <li>All products are 100% digital and delivered electronically to your email.</li>
-                                    <li>Bootstrap Themes is not responsible for you not receiving your theme if you fail to provide a valid email or for technical issues outside our control.</li>
-                                </ol>
-                            </li>
-                            <li><strong>Security &amp; Payments</strong>
-                                <ol>
-                                    <li>All payments are processed securely through PayPal or Stripe. Bootstrap Themes does not directly process payments through the website.</li>
-                                </ol>
-                            </li>
-                            <li><strong>Refunds</strong>
-                                <ol>
-                                    <li>You have 14 days to evaluate your purchase. If your purchase fails to meet expectations set by the seller, or is critically flawed in some way, contact Bootstrap Themes and we will issue a full refund pending a review.</li>
-                                    <li>The issue of refunds is at the complete discretion of Bootstrap Themes.</li>
-                                </ol>
-                            </li>
-                            <li><strong>Support</strong>
-                                <ol>
-                                    <li>Support for a purchase is governed by the usage license you purchase.</li>
-                                </ol>
-                            </li>
-                            <li><strong>Ownership</strong>
-                                <ol>
-                                    <li>Ownership of the product is governed by the usage licenses.</li>
-                                </ol>
-                            </li>
-                            <li><strong>Membership &amp; Content</strong>
-                                <ol>
-                                    <li>Membership is a benefit for those who follow our terms and policies. We may at any time suspend or terminate your account.</li>
-                                    <li>We can view and/or remove any content for any reason at our own discretion. This will typically only be exercised for issues needing immediate resolution, such as, but not limited to, the posting of unauthorized content, offensive content, illegal content, or anything breaching anyone else’s rights.</li>
-                                </ol>
-                            </li>
-                            <li><strong>Liability</strong>
-                                <ol>
-                                    <li>You indemnify us against all losses, costs (including legal costs), expenses, demands or liability that we incur arising out of, or in connection with, any claims against us relating to your use of Bootstrap Themes.</li>
-                                </ol>
-                            </li>
-                            <li><strong>Requesting, Modifying or Deleting Your Data (GDPR)</strong>
-                                <ol>
-                                    <li>We are a small operation, but we work hard to make sure your data remains safe and we only collect what is needed to provide our services. If you want to request an export of your data, a modification to any data we have related to your account, or delete of all data permanently, please email themes@getbootstrap.com and we’ll complete your request in a timely manner.</li>
-                                </ol>
-                            </li>
-                            <li><strong>Changes to terms</strong>
-                                <ol>
-                                    <li>If we change our terms of use we will post those changes on this page.</li>
-                                </ol>
-                            </li>
-                        </ol>
-                    </div><!-- .entry-content -->
-                </article><!-- #post-108 -->
+These terms and conditions outline the rules and regulations for the use.
+
+By accessing this website we assume you accept these terms and conditions. Do not continue to use Pak Earn if you do not agree to take all of the terms and conditions stated on this page.
+
+ All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.
+</p>
+<h2>Our Accesing Cookies</h2>
+                    <p>We employ the use of cookies. By accessing , you agreed to use cookies in agreement with the Pak Earn  Privacy Policy.
+
+Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.
+</p>
+<h2>Pak Earn License</h2>
+<p>Unless otherwise stated, Pak Earn and/or its licensors own the intellectual property rights for all material on Unique Cash Earn. All intellectual property rights are reserved. You may access this from Unique Cash  for your own personal use subjected to restrictions set in these terms and conditions.
+
+You must not:
+
+Republish material from Pak Earn
+Sell, rent or sub-license material from Pak Earn
+Reproduce, duplicate or copy material from Pak Earn
+Redistribute content from Pak Earn  
+This Agreement shall begin on the date here of.
+
+Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website.Pak Earn does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Unique Cash,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, Unique Cash  shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.
+
+Pak Earn reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these terms & Conditions
+</p>
+<p>You warrant and represent that:
+
+You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;
+The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;
+The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy
+The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.
+You hereby grant My Clixs a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.
+</p>
+<h2> Our Content</h2>
+<p>The following organizations may link to our Website without prior written approval:
+
+Government agencies;
+Search engines;
+News organizations;
+Online directory distributors may link to our Website in the same manner as they hyperlink to the Websites of other listed businesses; and
+System wide Accredited Businesses except soliciting non-profit organizations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.
+These organizations may link to our home page, to publications or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products and/or services; and (c) fits within the context of the linking party’s site.
+
+We may consider and approve other link requests from the following types of organizations:
+
+commonly-known consumer and/or business information sources;
+dot.com community sites;
+associations or other groups representing charities;
+online directory distributors;
+internet portals;
+accounting, law and consulting firms; and
+educational institutions and trade associations.
+We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of Unique Cash; and (d) the link is in the context of general resource information.
+
+These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party’s site.
+
+If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to Unique Cash. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.
+
+Approved organizations may hyperlink to our Website as follows:
+
+By use of our corporate name; or
+By use of the uniform resource locator being linked to; or
+By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party’s site.
+No use of My Clixs's logo or other artwork will be allowed for linking absent a trademark license agreement.
+Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our Website.
+</p>
+<h2>Content Liability</h2>
+<p>We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.</p>
+</article><!-- #post-108 -->
 
 
 

@@ -50,6 +50,10 @@
         <li class="nav-item">
             <a class="nav-link" href="<?= env('app.baseURL'); ?>/payment-methods" bis_skin_checked="1"><i
                         class="fas fa-dollar"></i> Payment Methods</a>
+        </li>  
+        <li class="nav-item">
+            <a class="nav-link" href="<?= env('app.baseURL'); ?>/payment-methods" bis_skin_checked="1"><i
+                        class="fas fa-dollar"></i>Contact Us</a>
         </li>
         <?php if (session()->has("logged_in")): ?>
             <li>
@@ -162,6 +166,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('/payment-methods'); ?>"><i class="fas fa-dollar"></i>
                             Payment Methods</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url('/payment-methods'); ?>"><i class="fas fa-dollar"></i>
+                            Contact Us</a>
                     </li>
             </div>
             <!-- mainmenu end -->

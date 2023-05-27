@@ -40,6 +40,10 @@
                     <a class="nav-link active" href="<?= base_url('/payment-methods'); ?>"><i class="fas fa-dollar"></i>
                         Payment Methods</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="<?= base_url('/payment-methods'); ?>"><i class="fas fa-dollar"></i>
+                        Contact Us</a>
+                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
                        data-bs-toggle="dropdown" aria-expanded="false">

@@ -52,6 +52,14 @@
             <a class="nav-link" href="<?= env('app.baseURL'); ?>/payment-methods" bis_skin_checked="1"><i
                         class="fas fa-dollar"></i> Payment Methods</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="<?= env('app.baseURL'); ?>/contact-us" bis_skin_checked="1"><i
+                        class="fas fa-dollar"></i> Contact Us</a>
+        </li>
+                <li class="nav-item">
+            <a class="nav-link" href="<?= env('app.baseURL'); ?>/about-us" bis_skin_checked="1"><i
+                        class="fas fa-dollar"></i> About Us</a>
+        </li>
         <?php if (session()->has("logged_in")): ?>
             <li>
                 <a href="<?= env('app.baseURL'); ?>/auth/dashboard"> Dashboard </a></li>
@@ -161,6 +169,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="<?= base_url('/payment-methods'); ?>"><i class="fas fa-dollar"></i>
                             Payment Methods</a>
+                    </li>
+                                        <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url('/contact-us'); ?>"><i class="fas fa-dollar"></i>
+                            Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url('/about-us'); ?>"><i class="fas fa-dollar"></i>
+                           About Us</a>
                     </li>
             </div>
             <!-- mainmenu end -->

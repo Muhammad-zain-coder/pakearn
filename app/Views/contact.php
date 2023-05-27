@@ -29,7 +29,9 @@
                                     </div>
                                 <?php endif; ?>
             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quaerat autem corrupti asperiores accusantium et fuga! Facere excepturi, quo eos, nobis doloremque dolor labore expedita illum iusto, aut repellat fuga!</p>
-            
+            <p>
+                <i class="fas fa-facebook"></i>
+            </p>
         </div>
         <div class="col-md-6">
             <form class="mb-5" method="post" id="contactForm" name="contactForm">
