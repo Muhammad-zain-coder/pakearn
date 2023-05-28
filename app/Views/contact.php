@@ -28,26 +28,9 @@
                                         <?= session()->getFlashdata('sucess') ?>
                                     </div>
                                 <?php endif; ?>
-            <!-- <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quaerat autem corrupti asperiores accusantium et fuga! Facere excepturi, quo eos, nobis doloremque dolor labore expedita illum iusto, aut repellat fuga!</p> -->
            <p>
-           Thank you for reaching out to us. We value your interest and appreciate your desire to get in touch. Whether you have a question, suggestion, or feedback, we are here to assist you.
-
-Our dedicated team is ready to help and provide the support you need. To contact us, you can reach out through the following channels:
-
-<br>
-1. Phone: You can give us a call at our customer service hotline [Phone number] during our business hours. Our friendly representatives will be happy to assist you and address any concerns you may have.
-<br>
-2. Email: If you prefer to communicate via email, please send your message to [Email address]. We strive to respond to all inquiries within [response time], and our team will make every effort to provide you with a timely and comprehensive response.
-<br>
-3. Online Contact Form: Alternatively, you can visit our website and fill out the contact form available on the "Contact Us" page. Simply provide your name, email address, and a brief description of your inquiry. We will ensure your message reaches the appropriate department for a prompt response.
-<br>
-4. Social Media: Connect with us on our official social media channels, including [list of social media platforms]. Feel free to send us a direct message or leave a comment, and we will get back to you as soon as possible.
-<br>
-We genuinely value your input and strive to continuously improve our services. Your feedback is vital to us, so please don't hesitate to share your thoughts or suggestions. We appreciate your time and look forward to assisting you in any way we can.
-
-Best regards,
-<br>
-<b>PakEarn</b>
+           Here is the contact Details,if you face any type of issues related to your working . Withdrawal problems,package upgradation issues or any other Difficulties Kindly contact us an share your issue with us.
+Our Team usually will contact you in the next 48 hours after receiving the E-mail & we will Let you know to inform about the resolvance of your issue. Thanks for Contacting.
            </p>
             <p>
                 <i class="fas fa-facebook"></i>
