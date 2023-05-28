@@ -100,6 +100,34 @@
     <?php }else{ ?>
     <div class="payment_transfer_Wrapper float_left">
         <div class="row">
+        <h2 class="py-3">How to Upgrade your Account:</h2>
+<ul class="list-group" style="background-color: #eff1f5;">
+    <li class="list-group-item border-0" style="background-color: #eff1f5;">1-Select your Package First,which you want to active.</li>
+    <li class="list-group-item border-0" style="background-color: #eff1f5;">2-Then choose the Transaction Gateways(Easypaisa,Jazzcash)that you want to use.</li>
+    <li class="list-group-item border-0" style="background-color: #eff1f5;">3-Go to your Easypaisa/Jazzcash & Login.</li>
+    <li class="list-group-item border-0" style="background-color: #eff1f5;">
+    4- Select the Account Number from the given Below.</li>
+    <li class="list-group-item border-0" style="background-color: #eff1f5;">
+    5-Transfer your Package fee to the Website  Admin's Account Number(Keep in mind that the Admin's "Account Holder Name" must match before the Transaction).
+</li>
+    <li class="list-group-item border-0" style="background-color: #eff1f5;">
+    6-After Transaction you will receive a TID of 11-digits from 8558 or 3737.
+</li>
+    <li class="list-group-item border-0" style="background-color: #eff1f5;">7-Put/Paste the TID in the Section "Credit Pay" & Click on Upgrade.</li>
+    <li class="list-group-item border-0" style="background-color: #eff1f5;">8- Your Account will be Upgraded in the next 24 hours.
+</li>
+    <li class="list-group-item border-0" style="background-color: #eff1f5;">9-Don't forget the TID must be accurate & correct.
+</li>
+<li class="list-group-item border-0" style="background-color: #eff1f5;">10-In case,if you put wrong TID your account will be banned,so be Careful.
+</li>
+</ul>
+<p>
+Note: <br>
+If your Account is not approved after putting TID,then Contact to Our Supporting Team & your issue will be Resolved.
+
+</p>
+        </div>
+        <div class="row">
             <div class="col-md-12 col-lg-12 col-sm-12 col-12">
                 <div class="sv_heading_wraper heading_center">
                     <h3>Credit Pay</h3>
