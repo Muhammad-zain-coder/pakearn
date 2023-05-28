@@ -35,6 +35,7 @@
     <title><?= $this->renderSection('title') ?></title>
 </head>
 <body class="d-flex flex-column min-vh-100">
+
 <nav class="cd-dropdown d-block d-sm-block d-md-block d-lg-none d-xl-none">
     <h2><a href="index.html">PakEarn </a></h2>
     <a href="#0" class="cd-close">Close</a>
@@ -50,17 +51,19 @@
         <li class="nav-item">
             <a class="nav-link" href="<?= env('app.baseURL'); ?>/payment-methods" bis_skin_checked="1"><i
                         class="fas fa-dollar"></i> Payment Methods</a>
-        </li>  
+        </li>
         <li class="nav-item">
-            <a class="nav-link" href="<?= env('app.baseURL'); ?>/payment-methods" bis_skin_checked="1"><i
-                        class="fas fa-dollar"></i>Contact Us</a>
+            <a class="nav-link" href="<?= env('app.baseURL'); ?>/contact-us" bis_skin_checked="1"><i
+                        class="fas fa-dollar"></i> Contact Us</a>
+        </li>
+                <li class="nav-item">
+            <a class="nav-link" href="<?= env('app.baseURL'); ?>/about-us" bis_skin_checked="1"><i
+                        class="fas fa-dollar"></i> About Us</a>
         </li>
         <?php if (session()->has("logged_in")): ?>
             <li>
                 <a href="<?= env('app.baseURL'); ?>/auth/dashboard"> Dashboard </a></li>
             <li><a href="<?= env('app.baseURL'); ?>/auth/widthrawal"> widthrawal </a></li>
-            <li><a href="<?= env('app.baseURL') ?>auth/pay-credit">Credit Pay</a></li>
-            <li><a href="<?= env('app.baseURL') ?>/auth/paymentGateways"> Payment Gateways </a></li>
             <li>
                 <a href="<?= env('app.baseURL'); ?>/auth/logout"> logout </a></li>
 
@@ -68,8 +71,8 @@
             <li>
                 <a href="<?= env('app.baseURL'); ?>/auth/register"> register </a></li>
             <li>
-                <a href="<?= env('app.baseURL'); ?>/auth/login"> login </a>
-            </li>
+                <a href="<?= env('app.baseURL'); ?>/auth/login"> login </a></li>
+
         <?php endif; ?>
     </ul>
     <!-- .cd-dropdown-content -->
@@ -167,9 +170,13 @@
                         <a class="nav-link" href="<?= base_url('/payment-methods'); ?>"><i class="fas fa-dollar"></i>
                             Payment Methods</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= base_url('/payment-methods'); ?>"><i class="fas fa-dollar"></i>
+                                        <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url('/contact-us'); ?>"><i class="fas fa-dollar"></i>
                             Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= base_url('/about-us'); ?>"><i class="fas fa-dollar"></i>
+                           About Us</a>
                     </li>
             </div>
             <!-- mainmenu end -->
@@ -178,6 +185,120 @@
 </div>
 <?= $this->renderSection('content') ?>
 
+<div class="footer_main_wrapper float_left">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-12 col-sm-12">
+                <div class="wrapper_second_about">
+                    <div class="wrapper_first_image">
+                        <a href="<?= base_url(); ?>"><h2>PakEarn</h2></a>
+                    </div>
+                    <p>We are a full service Digital Marketing Agency all the foundational tool you need.</p>
+                    <div class="counter-section">
+                        <div class="ft_about_icon float_left">
+                            <i class="flaticon-user"></i>
+                            <div class="ft_abt_text_wrapper">
+                                <p class="timer"> 350</p>
+                                <h4>total member</h4>
+                            </div>
+
+                        </div>
+                        <div class="ft_about_icon float_left">
+                            <i class="flaticon-money-bag"></i>
+                            <div class="ft_abt_text_wrapper">
+                                <p class="timer">35000</p>
+                                <h4>total deposited</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-12 col-sm-4">
+                <div class="wrapper_second_useful">
+                    <h4>usefull links </h4>
+
+                    <ul>
+                        <li><a href="#"><i class="fa fa-angle-right"></i>About us</a>
+                        </li>
+
+                        <li><a href="#"><i class="fa fa-angle-right"></i>contact </a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i>services</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i>news</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i>blog</a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-12 col-sm-4">
+                <div class="wrapper_second_useful wrapper_second_links">
+
+                    <ul>
+                        <li><a href="#"><i class="fa fa-angle-right"></i>sitemap</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i>FAQ </a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i>awards </a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i>tstimonials</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i>career</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12 col-sm-12">
+                <div class="wrapper_second_useful wrapper_second_useful_2">
+                    <h4>contact us</h4>
+
+                    <ul>
+                        <li>
+                            <h1>+92 309 1470490</h1></li>
+                        <li><a href="mailto:info@pak-earn.com"><i class="flaticon-mail"></i><span class="__cf_email__"
+                                                                                                  data-cfemail="b0c3d1c6d5d8c9d9c0f0d5c8d1ddc0dcd59ed3dfdd">info@pak-earn.com</span></a>
+                        </li>
+                        <li><a href="https://pak-earn.com/"><i class="flaticon-language"></i>www.pak-earn.com</a>
+                        </li>
+
+                        <li><i class="flaticon-placeholder"></i>DHA 3 Z Block, Defence Lahore
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                <div class="copyright_wrapper float_left">
+                    <div class="copyright">
+                        <p>Copyright <i class="far fa-copyright"></i> 2022 <a href="<?= base_url(); ?>"> PakEarn</a>.
+                            all right reserved - design by <a href="https://wa.me/923314174980">Zedinfinity
+                                solutions</a></p>
+                    </div>
+                    <div class="social_link_foter">
+
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--Section: Contact v.2-->
+<!--<script src="--><? //= base_url('assets/front/js/bootstrap.min.js');?><!--"></script>-->
+<!--<script src="--><? //= base_url('assets/front/js/jquery.js');?><!--">-->
 
 <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 <script src="<?= base_url('assets/front/js/jquery-3.3.1.min.js'); ?>"></script>
