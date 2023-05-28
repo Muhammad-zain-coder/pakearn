@@ -21,7 +21,7 @@
 
                 <article id="post-108" class="post-108 page type-page status-publish hentry">
                     <header class="entry-header">
-                        <h1 class="entry-title">Terms of Service</h1>
+                        <h1 class="entry-title">Terms n Service</h1>
                     </header><!-- .entry-header -->
 <p>Welcome to Pak Earn!
 
