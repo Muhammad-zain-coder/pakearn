@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
+    
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PV3ZQQQ');</script>
+<!-- End Google Tag Manager -->
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,6 +27,10 @@
     <title><?= $this->renderSection('title') ?></title>
 </head>
 <body class="d-flex flex-column min-vh-100">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PV3ZQQQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <nav class="navbar navbar-expand-lg  navbar-dark fixed-top bg-danger position-relative ">
     <div class="container">
         <a class="navbar-brand" href="<?= base_url(); ?>">Pak Earn</a>

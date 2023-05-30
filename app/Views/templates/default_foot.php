@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
+    
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PV3ZQQQ');</script>
+<!-- End Google Tag Manager -->
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,7 +43,10 @@
     <title><?= $this->renderSection('title') ?></title>
 </head>
 <body class="d-flex flex-column min-vh-100">
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PV3ZQQQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <nav class="cd-dropdown d-block d-sm-block d-md-block d-lg-none d-xl-none">
     <h2><a href="index.html">PakEarn </a></h2>
     <a href="#0" class="cd-close">Close</a>
@@ -133,7 +144,7 @@
             <!-- .cd-dropdown-wrapper -->
         </header>
         <div class="top_header_right_wrapper">
-            <p><i class="flaticon-phone-contact"></i> (+92)309 1470490</p>
+            <p><i class="flaticon-phone-contact"></i> <a href="tel:(+92)309 1470490">(+92)309 1470490</a></p>
             <div class="header_btn">
                 <ul>
                     <?php if (session()->has("logged_in")): ?>
@@ -223,14 +234,14 @@
                     <h4>usefull links </h4>
 
                     <ul>
-                        <li><a href="#"><i class="fa fa-angle-right"></i>About us</a>
+                        <li><a href="/about-us"><i class="fa fa-angle-right"></i>About us</a>
                         </li>
 
-                        <li><a href="#"><i class="fa fa-angle-right"></i>contact </a>
+                        <li><a href="/contact"><i class="fa fa-angle-right"></i>contact </a>
                         </li>
-                        <li><a href="#"><i class="fa fa-angle-right"></i>services</a>
+                        <li><a href="/terms-and-condition"><i class="fa fa-angle-right"></i>Terms and condition</a>
                         </li>
-                        <li><a href="#"><i class="fa fa-angle-right"></i>news</a></li>
+                        <li><a href="/privacy-policy"><i class="fa fa-angle-right"></i>Privacy Policy</a></li>
                         <li><a href="#"><i class="fa fa-angle-right"></i>blog</a></li>
                     </ul>
 
@@ -282,13 +293,14 @@
                     </div>
                     <div class="social_link_foter">
 
-                        <ul>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                    <ul>
+    <li><a href="https://www.facebook.com/Pakearn456?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a></li>
+    <li><a href="https://www.youtube.com/@realearningsonline7890"><i class="fab fa-youtube"></i></a></li>
+    <li><a href="https://www.linkedin.com/company/real-webs-pakistan/"><i class="fab fa-linkedin-in"></i></a></li>
+    <li><a href="https://twitter.com/Realwebs234?t=Xsvgd8953_qSTTBWrnIrXw&s=09"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="https://www.instagram.com/invites/contact/?i=1xv0wfjn36wfl&utm_content=oqjzewf"><i class="fab fa-instagram"></i></a></li>
 
-                        </ul>
+</ul>
                     </div>
                 </div>
             </div>

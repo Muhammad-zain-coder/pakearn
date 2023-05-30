@@ -11,6 +11,15 @@
     .cp_navi_main_wrapper.float_left {
         background: #00aaef;
     }
+    .social_link_contact ul {
+        display: flex;
+    }
+    .social_link_contact ul li{
+        padding: 0 10px;
+    }
+    .social_link_contact ul li a i{
+        color: black;
+    }
 </style>
 <div class="container py-5">
     <div class="row">
@@ -33,7 +42,17 @@
 Our Team usually will contact you in the next 48 hours after receiving the E-mail & we will Let you know to inform about the resolvance of your issue. Thanks for Contacting.
            </p>
             <p>
-                <i class="fas fa-facebook"></i>
+            <div class="social_link_contact">
+
+<ul>
+    <li><a href="https://www.facebook.com/Pakearn456?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a></li>
+    <li><a href="https://www.youtube.com/@realearningsonline7890"><i class="fab fa-youtube"></i></a></li>
+    <li><a href="https://www.linkedin.com/company/real-webs-pakistan/"><i class="fab fa-linkedin-in"></i></a></li>
+    <li><a href="https://twitter.com/Realwebs234?t=Xsvgd8953_qSTTBWrnIrXw&s=09"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="https://www.instagram.com/invites/contact/?i=1xv0wfjn36wfl&utm_content=oqjzewf"><i class="fab fa-instagram"></i></a></li>
+
+</ul>
+</div>
             </p>
         </div>
         <div class="col-md-6">
