@@ -241,10 +241,7 @@
             <div class="row">
                 <div class="global_comm_wraper">
                     <h1>We Were Always Thinking Global Community</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Ut enim ad minim veniam Quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                        dolor in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                </div>
+                       </div>
                 <div class="zero_balance_wrapper">
                     <div class="zero_commisition">
                         <h1>Zero
@@ -557,8 +554,7 @@
                         <div class="investment_border_wrapper"></div>
                         <div class="investment_content_wrapper">
                             <h1><a href="#">We're Certified</a></h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Ut enim ad minim
-                                veniam</p>
+                            
                         </div>
 
                     </div>
@@ -571,8 +567,7 @@
                         <div class="investment_border_wrapper red_border_wrapper"></div>
                         <div class="investment_content_wrapper red_content_wrapper">
                             <h1><a href="#">We're Secure</a></h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Ut enim ad minim
-                                veniam</p>
+                           
                         </div>
 
                     </div>
@@ -585,8 +580,7 @@
                         <div class="investment_border_wrapper blue_border_wrapper"></div>
                         <div class="investment_content_wrapper blue_content_wrapper">
                             <h1><a href="#">We're Profitable</a></h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Ut enim ad minim
-                                veniam</p>
+                            
                         </div>
 
                     </div>
@@ -599,8 +593,7 @@
                         <div class="investment_border_wrapper yellow_border_wrapper"></div>
                         <div class="investment_content_wrapper yellow_content_wrapper">
                             <h1><a href="#">We're global</a></h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Ut enim ad minim
-                                veniam</p>
+                            
                         </div>
 
                     </div>
@@ -614,8 +607,7 @@
                         <div class="investment_border_wrapper green_border_wrapper"></div>
                         <div class="investment_content_wrapper green_content_wrapper">
                             <h1><a href="#">We Accept Crypto</a></h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Ut enim ad minim
-                                veniam</p>
+                            
                         </div>
 
                     </div>
@@ -628,8 +620,7 @@
                         <div class="investment_border_wrapper pink_border_wrapper"></div>
                         <div class="investment_content_wrapper pink_content_wrapper">
                             <h1><a href="#">best support</a></h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Ut enim ad minim
-                                veniam</p>
+                            
                         </div>
 
                     </div>
@@ -658,10 +649,7 @@
                             <div class="item">
                                 <div class="testimonial_slide_main_wrapper dark_top_testimonial">
                                     <div class="ts_client_cont_wrapper">
-                                        <p>“This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                                            auctor aliquet. sollicitudin, lorem quis bibendum auctor, nisi elit
-                                            consequat ipsum, nec sagittis sem nibh id elit.”</p>
-                                    </div>
+                                       </div>
                                     <div class="ts_img_social_wrapper">
                                         <div class="ts_client_img_wrapper">
                                             <img src="<?= base_url('assets/front/images/ts1.png') ?>"
@@ -678,10 +666,7 @@
                             <div class="item">
                                 <div class="testimonial_slide_main_wrapper">
                                     <div class="ts_client_cont_wrapper dark_testimonial_wrapper">
-                                        <p>“This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                                            auctor aliquet. sollicitudin, lorem quis bibendum auctor, nisi elit
-                                            consequat ipsum, nec sagittis sem nibh id elit.”</p>
-                                    </div>
+                                       </div>
                                     <div class="ts_img_social_wrapper p2">
                                         <div class="ts_client_social_wrapper right_social_medaia">
                                             <p>- by joahn doe
@@ -698,10 +683,7 @@
                             <div class="item">
                                 <div class="testimonial_slide_main_wrapper dark_top_testimonial">
                                     <div class="ts_client_cont_wrapper">
-                                        <p>“This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                                            auctor aliquet. sollicitudin, lorem quis bibendum auctor, nisi elit
-                                            consequat ipsum, nec sagittis sem nibh id elit.”</p>
-                                    </div>
+                                      </div>
                                     <div class="ts_img_social_wrapper">
                                         <div class="ts_client_img_wrapper">
                                             <img src="<?= base_url('assets/front/images/ts1.png') ?>"
@@ -718,10 +700,7 @@
                             <div class="item">
                                 <div class="testimonial_slide_main_wrapper">
                                     <div class="ts_client_cont_wrapper dark_testimonial_wrapper">
-                                        <p>“This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                                            auctor aliquet. sollicitudin, lorem quis bibendum auctor, nisi elit
-                                            consequat ipsum, nec sagittis sem nibh id elit.”</p>
-                                    </div>
+                                         </div>
                                     <div class="ts_img_social_wrapper p2">
                                         <div class="ts_client_social_wrapper right_social_medaia">
                                             <p>- by joahn doe
@@ -738,10 +717,7 @@
                             <div class="item">
                                 <div class="testimonial_slide_main_wrapper dark_top_testimonial">
                                     <div class="ts_client_cont_wrapper">
-                                        <p>“This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                                            auctor aliquet. sollicitudin, lorem quis bibendum auctor, nisi elit
-                                            consequat ipsum, nec sagittis sem nibh id elit.”</p>
-                                    </div>
+                                         </div>
                                     <div class="ts_img_social_wrapper">
                                         <div class="ts_client_img_wrapper">
                                             <img src="<?= base_url('assets/front/images/ts1.png') ?>"
@@ -758,10 +734,7 @@
                             <div class="item">
                                 <div class="testimonial_slide_main_wrapper">
                                     <div class="ts_client_cont_wrapper dark_testimonial_wrapper">
-                                        <p>“This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                                            auctor aliquet. sollicitudin, lorem quis bibendum auctor, nisi elit
-                                            consequat ipsum, nec sagittis sem nibh id elit.”</p>
-                                    </div>
+                                         </div>
                                     <div class="ts_img_social_wrapper p2">
                                         <div class="ts_client_social_wrapper right_social_medaia">
                                             <p>- by joahn doe
