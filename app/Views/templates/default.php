@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9290247061099445"
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6419908954184423"
      crossorigin="anonymous"></script>
 
 <!-- Google Tag Manager -->
