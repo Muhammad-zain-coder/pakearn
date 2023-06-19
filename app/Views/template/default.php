@@ -33,6 +33,16 @@
     <title><?= $this->renderSection('title') ?></title>
 </head>
 <body class="d-flex flex-column min-vh-100">
+<script type="text/javascript">
+	atOptions = {
+		'key' : '865a8fe9caa8bb15969f9ea923e5ef79',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplaynetwork.com/865a8fe9caa8bb15969f9ea923e5ef79/invoke.js"></scr' + 'ipt>');
+</script>
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PV3ZQQQ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -89,5 +99,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--Section: Contact v.2-->
 <script src="<?= base_url('assets/front/js/bootstrap.min.js'); ?>"></script>
 <script src="<?= base_url('assets/front/js/jquery.js'); ?>"></script>
+<script type="text/javascript">
+	atOptions = {
+		'key' : '865a8fe9caa8bb15969f9ea923e5ef79',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplaynetwork.com/865a8fe9caa8bb15969f9ea923e5ef79/invoke.js"></scr' + 'ipt>');
+</script>
 </body>
 </html>
